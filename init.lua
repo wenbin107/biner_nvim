@@ -19,7 +19,6 @@ if astronvim.default_colorscheme then
     )
   end
 end
-
 require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, false), true)
 
 -- vim.opt.runtimepath:append "/Users/wenbin/.config/usernvim"
